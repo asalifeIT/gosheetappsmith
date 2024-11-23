@@ -1,0 +1,1506 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#2E3D4955",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 60,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "title"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.NUPTK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.NUPTK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.NUPTK.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.JK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.JK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.JK.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tempat_Lahir.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tempat_Lahir.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tempat_Lahir.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_Lahir.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_Lahir.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_Lahir.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIP.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIP.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIP.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Status_Kepegawaian.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Status_Kepegawaian.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Status_Kepegawaian.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Jenis_PTK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Jenis_PTK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Jenis_PTK.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Agama.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Agama.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Agama.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Alamat_Jalan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Alamat_Jalan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Alamat_Jalan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.RT.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.RT.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.RT.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.RW.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.RW.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.RW.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Dusun.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Dusun.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Dusun.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Desa_Kelurahan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Desa_Kelurahan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Desa_Kelurahan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kecamatan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kecamatan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kecamatan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kode_Pos.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kode_Pos.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kode_Pos.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Telepon.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Telepon.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Telepon.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.HP.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.HP.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.HP.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Email.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Email.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Email.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tugas_Tambahan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tugas_Tambahan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tugas_Tambahan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.SK_CPNS.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.SK_CPNS.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.SK_CPNS.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_CPNS.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_CPNS.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_CPNS.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.SK_Pengangkatan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.SK_Pengangkatan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.SK_Pengangkatan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_Pengangkatan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_Pengangkatan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_Pengangkatan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Lembaga_Pengangkatan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Lembaga_Pengangkatan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Lembaga_Pengangkatan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pangkat_Golongan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pangkat_Golongan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pangkat_Golongan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Sumber_Gaji.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Sumber_Gaji.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Sumber_Gaji.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Ibu_Kandung.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Ibu_Kandung.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Ibu_Kandung.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Status_Perkawinan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Status_Perkawinan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Status_Perkawinan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Suami_Istri.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Suami_Istri.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Suami_Istri.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIP_Suami_Istri.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIP_Suami_Istri.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIP_Suami_Istri.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pekerjaan_Suami_Istri.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pekerjaan_Suami_Istri.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pekerjaan_Suami_Istri.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_PNS.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_PNS.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_PNS.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Sudah_Lisensi_Kepala_Sekolah.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Sudah_Lisensi_Kepala_Sekolah.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Sudah_Lisensi_Kepala_Sekolah.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pernah_Diklat_Kepengawasan.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pernah_Diklat_Kepengawasan.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Pernah_Diklat_Kepengawasan.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Keahlian_Braille.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Keahlian_Braille.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Keahlian_Braille.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Keahlian_Bahasa_Isyarat.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Keahlian_Bahasa_Isyarat.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Keahlian_Bahasa_Isyarat.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.NPWP.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.NPWP.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.NPWP.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Wajib_Pajak.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Wajib_Pajak.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Nama_Wajib_Pajak.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.NIK.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.No_KK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.No_KK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.No_KK.accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col5.defaultValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.Tanggal_Lahir.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.TMT_Pengangkatan.defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.6bacf7df.svg",
+  "isLoading": false,
+  "isVisible": "{{data_table.selectedRow!==undefined}}",
+  "key": "h9l9ozr8op",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 40,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating row!\\n${error}`,'error'))}}",
+  "parentColumnSpace": 16.3125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "Agama": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Agama",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Agama))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Agama",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Agama",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Agama",
+          "position": 8,
+          "sourceData": "Islam"
+        },
+        "Alamat_Jalan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Alamat Jalan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Alamat Jalan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Alamat_Jalan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Alamat Jalan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Alamat Jalan",
+          "position": 9,
+          "sourceData": "TELAGA LANGSAT"
+        },
+        "Desa_Kelurahan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Desa/Kelurahan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Desa/Kelurahan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Desa_Kelurahan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Desa Kelurahan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Desa/Kelurahan",
+          "position": 13,
+          "sourceData": "TELAGA LANGSAT"
+        },
+        "Email": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Email",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Email))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Email Input",
+          "iconAlign": "left",
+          "identifier": "Email",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Email",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Email",
+          "position": 18,
+          "sourceData": "lezamudin@gmail.com"
+        },
+        "HP": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "HP",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.HP))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "HP",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "HP",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "HP",
+          "position": 17,
+          "sourceData": 85247112603
+        },
+        "JK": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "JK",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.JK))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "JK",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "JK",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "JK",
+          "position": 2,
+          "sourceData": "L"
+        },
+        "Jenis_PTK": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Jenis PTK",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Jenis PTK\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Jenis_PTK",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Jenis PTK",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Jenis PTK",
+          "position": 7,
+          "sourceData": "Guru"
+        },
+        "Keahlian_Bahasa_Isyarat": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Keahlian Bahasa Isyarat",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Keahlian Bahasa Isyarat\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Keahlian_Bahasa_Isyarat",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Keahlian Bahasa Isyarat",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Keahlian Bahasa Isyarat",
+          "position": 36,
+          "sourceData": "Tidak"
+        },
+        "Keahlian_Braille": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Keahlian Braille",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Keahlian Braille\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Keahlian_Braille",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Keahlian Braille",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Keahlian Braille",
+          "position": 35,
+          "sourceData": "Tidak"
+        },
+        "Kecamatan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Kecamatan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Kecamatan))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Kecamatan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Kecamatan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Kecamatan",
+          "position": 14,
+          "sourceData": "Kec. Telaga Langsat"
+        },
+        "Kode_Pos": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Kode Pos",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Kode Pos\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "Kode_Pos",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Kode Pos",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Kode Pos",
+          "position": 15,
+          "sourceData": 71292
+        },
+        "Lembaga_Pengangkatan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Lembaga Pengangkatan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Lembaga Pengangkatan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Lembaga_Pengangkatan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Lembaga Pengangkatan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Lembaga Pengangkatan",
+          "position": 24,
+          "sourceData": "Pemerintah Propinsi"
+        },
+        "NIK": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "NIK",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.NIK))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "NIK",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "NIK",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "NIK",
+          "position": 39,
+          "sourceData": 6306042909970004
+        },
+        "NIP": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "NIP",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.NIP))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "NIP",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "NIP",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "NIP",
+          "position": 5,
+          "sourceData": ""
+        },
+        "NIP_Suami_Istri": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "NIP Suami/Istri",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"NIP Suami/Istri\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "NIP_Suami_Istri",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "NIP Suami Istri",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "NIP Suami/Istri",
+          "position": 30,
+          "sourceData": ""
+        },
+        "NPWP": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "NPWP",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.NPWP))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "NPWP",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "NPWP",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "NPWP",
+          "position": 37,
+          "sourceData": 631139821733000
+        },
+        "NUPTK": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "NUPTK",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.NUPTK))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "NUPTK",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "NUPTK",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "NUPTK",
+          "position": 1,
+          "sourceData": 1261775676130113
+        },
+        "Nama": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Nama",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Nama))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Nama",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nama",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Nama",
+          "position": 0,
+          "sourceData": "AULIA LIZAMUDDIN"
+        },
+        "Nama_Dusun": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Nama Dusun",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Nama Dusun\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Nama_Dusun",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nama Dusun",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Nama Dusun",
+          "position": 12,
+          "sourceData": "TELAGA LANGSAT"
+        },
+        "Nama_Ibu_Kandung": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Nama Ibu Kandung",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Nama Ibu Kandung\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Nama_Ibu_Kandung",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nama Ibu Kandung",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Nama Ibu Kandung",
+          "position": 27,
+          "sourceData": "RUSDAH"
+        },
+        "Nama_Suami_Istri": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Nama Suami/Istri",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Nama Suami/Istri\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Nama_Suami_Istri",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nama Suami Istri",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Nama Suami/Istri",
+          "position": 29,
+          "sourceData": "WINDA AMALIA"
+        },
+        "Nama_Wajib_Pajak": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Nama Wajib Pajak",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Nama Wajib Pajak\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Nama_Wajib_Pajak",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nama Wajib Pajak",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Nama Wajib Pajak",
+          "position": 38,
+          "sourceData": "AULIA LIZAMUDDIN"
+        },
+        "No_KK": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "No KK",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"No KK\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "No_KK",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "No KK",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "No KK",
+          "position": 40,
+          "sourceData": 6306032202210002
+        },
+        "Pangkat_Golongan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Pangkat Golongan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Pangkat Golongan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Pangkat_Golongan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Pangkat Golongan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Pangkat Golongan",
+          "position": 25,
+          "sourceData": ""
+        },
+        "Pekerjaan_Suami_Istri": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Pekerjaan Suami/Istri",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Pekerjaan Suami/Istri\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Pekerjaan_Suami_Istri",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Pekerjaan Suami Istri",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Pekerjaan Suami/Istri",
+          "position": 31,
+          "sourceData": "PNS/TNI/Polri"
+        },
+        "Pernah_Diklat_Kepengawasan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Pernah Diklat Kepengawasan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Pernah Diklat Kepengawasan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Pernah_Diklat_Kepengawasan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Pernah Diklat Kepengawasan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Pernah Diklat Kepengawasan",
+          "position": 34,
+          "sourceData": "Tidak"
+        },
+        "RT": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "RT",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.RT))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "RT",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "RT",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "RT",
+          "position": 10,
+          "sourceData": 1
+        },
+        "RW": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "RW",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.RW))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "RW",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "RW",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "RW",
+          "position": 11,
+          "sourceData": 1
+        },
+        "SK_CPNS": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "SK CPNS",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"SK CPNS\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "SK_CPNS",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "SK CPNS",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "SK CPNS",
+          "position": 20,
+          "sourceData": ""
+        },
+        "SK_Pengangkatan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "SK Pengangkatan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"SK Pengangkatan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "SK_Pengangkatan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "SK Pengangkatan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "SK Pengangkatan",
+          "position": 22,
+          "sourceData": "0070 tahun 2024"
+        },
+        "Status_Kepegawaian": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Status Kepegawaian",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Status Kepegawaian\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Status_Kepegawaian",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Status Kepegawaian",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Status Kepegawaian",
+          "position": 6,
+          "sourceData": "Honor Daerah TK.I Provinsi"
+        },
+        "Status_Perkawinan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Status Perkawinan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Status Perkawinan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Status_Perkawinan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Status Perkawinan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Status Perkawinan",
+          "position": 28,
+          "sourceData": "Kawin"
+        },
+        "Sudah_Lisensi_Kepala_Sekolah": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Sudah Lisensi Kepala Sekolah",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Sudah Lisensi Kepala Sekolah\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Sudah_Lisensi_Kepala_Sekolah",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Sudah Lisensi Kepala Sekolah",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Sudah Lisensi Kepala Sekolah",
+          "position": 33,
+          "sourceData": "Tidak"
+        },
+        "Sumber_Gaji": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Sumber Gaji",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Sumber Gaji\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Sumber_Gaji",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Sumber Gaji",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Sumber Gaji",
+          "position": 26,
+          "sourceData": "APBD Provinsi"
+        },
+        "TMT_PNS": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "TMT PNS",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"TMT PNS\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "TMT_PNS",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "TMT PNS",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "TMT PNS",
+          "position": 32,
+          "sourceData": ""
+        },
+        "TMT_Pengangkatan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "TMT Pengangkatan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "MM/DD/YYYY",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData[\"TMT Pengangkatan\"], \"MM/DD/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "TMT_Pengangkatan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "TMT Pengangkatan",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "TMT Pengangkatan",
+          "position": 23,
+          "shortcuts": false,
+          "sourceData": "05/04/2024",
+          "timePrecision": "minute"
+        },
+        "Tanggal_CPNS": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Tanggal CPNS",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Tanggal CPNS\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Tanggal_CPNS",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Tanggal CPNS",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Tanggal CPNS",
+          "position": 21,
+          "sourceData": ""
+        },
+        "Tanggal_Lahir": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Tanggal Lahir",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "DD/MM/YYYY",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData[\"Tanggal Lahir\"], \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "Tanggal_Lahir",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Tanggal Lahir",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "Tanggal Lahir",
+          "position": 4,
+          "shortcuts": false,
+          "sourceData": "29/09/1997",
+          "timePrecision": "minute"
+        },
+        "Telepon": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Telepon",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Telepon))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "Telepon",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Telepon",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Telepon",
+          "position": 16,
+          "sourceData": 85247112603
+        },
+        "Tempat_Lahir": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Tempat Lahir",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Tempat Lahir\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Tempat_Lahir",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Tempat Lahir",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Tempat Lahir",
+          "position": 3,
+          "sourceData": "TANIRAN"
+        },
+        "Tugas_Tambahan": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Tugas Tambahan",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Tugas Tambahan\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Tugas_Tambahan",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Tugas Tambahan",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Tugas Tambahan",
+          "position": 19,
+          "sourceData": ""
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "col1": "This 12",
+        "col2": "is 2",
+        "col3": "new 3",
+        "col4": "entry 5"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\", \"rowIndex\")}}",
+  "submitButtonLabel": "Update",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Update Row Id: {{data_table.selectedRow.rowIndex}}",
+  "topRow": 0,
+  "type": "JSON_FORM_WIDGET",
+  "version": 1,
+  "widgetId": "tn9ri7ylp2",
+  "widgetName": "update_form"
+}
