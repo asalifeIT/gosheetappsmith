@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 26,
+  "bottomRow": 25,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultModel": "{\n  \"tips\": [\n    \"Data Sarana dan Prasarana SLB Negeri Daha Selatan - Dapodikdasmen\",\n      \"Data Sarana dan Prasarana: Melacak dan mengelola inventaris sekolah, termasuk kondisi gedung, perpustakaan, laboratorium, dan alat bantu belajar.\",\n    \"Data Tenaga Pendidikan: Mengelola data tenaga kependidikan lainnya, seperti staf administrasi, perawat, dan petugas kebersihan\",\n    \"Pengelolaan Data yang Efisien: Memungkinkan pengguna untuk menambah, mengedit, dan menghapus data dengan mudah.\"\n  ]\n}",
   "dynamicBindingPathList": [

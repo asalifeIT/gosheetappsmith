@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 26,
+  "bottomRow": 25,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultModel": "{\n  \"tips\": [\n    \"Data Guru SLB Negeri Daha Selatan - Dapodikdasmen\",\n    \"Integrasi dengan Google Sheets: Data yang disimpan di aplikasi dapat diintegrasikan dengan Google Sheets untuk analisis lebih lanjut.\",\n    \"Data Guru: Mengelola data guru, seperti riwayat pendidikan, pengalaman mengajar, dan jadwal mengajar\",\n    \"Pengelolaan Data yang Efisien: Memungkinkan pengguna untuk menambah, mengedit, dan menghapus data dengan mudah.\"\n  ]\n}",
   "dynamicBindingPathList": [
