@@ -949,7 +949,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.NISN))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (InsertQuery.NISN))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
           "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "NISN",
