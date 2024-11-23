@@ -183,12 +183,57 @@
       "responsiveBehavior": "fill",
       "rightColumn": 554.064453125,
       "tabId": "tabikh4w194vt",
-      "tabName": "Data Sarpras",
+      "tabName": "Data Sarana",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
       "widgetId": "p1s3ynbdyf",
       "widgetName": "Canvas5"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 280,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "vm1rktefsh",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 320,
+      "minWidth": 450,
+      "mobileBottomRow": 321,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 554.064453125,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "w2u6ft2qs7",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 554.064453125,
+      "tabId": "tabarphaorm7q",
+      "tabName": "Data Prasarana",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "j5t8fyt2wv",
+      "widgetName": "Canvas6"
     }
   ],
   "defaultTab": "Data GoSheet",
@@ -251,11 +296,18 @@
       "label": "Data Tendik",
       "widgetId": "obgqra7ia1"
     },
+    "tabarphaorm7q": {
+      "id": "tabarphaorm7q",
+      "index": 4,
+      "isVisible": true,
+      "label": "Data Prasarana",
+      "widgetId": "j5t8fyt2wv"
+    },
     "tabikh4w194vt": {
       "id": "tabikh4w194vt",
       "index": 3,
       "isVisible": true,
-      "label": "Data Sarpras",
+      "label": "Data Sarana",
       "widgetId": "p1s3ynbdyf"
     }
   },

@@ -46,7 +46,11 @@
       "isDefault": false
     },
     {
-      "id": "Data Sarpras",
+      "id": "Data Prasarana",
+      "isDefault": false
+    },
+    {
+      "id": "Data Sarana",
       "isDefault": false
     }
   ],

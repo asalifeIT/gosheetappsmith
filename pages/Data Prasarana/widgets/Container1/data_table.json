@@ -1262,7 +1262,7 @@
   "tableData": "{{SelectQuery.data}}",
   "textSize": "0.875rem",
   "topRow": 6,
-  "totalRecordsCount": 0,
+  "totalRecordsCount": "17",
   "type": "TABLE_WIDGET_V2",
   "version": 3,
   "verticalAlignment": "CENTER",

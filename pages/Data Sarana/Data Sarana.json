@@ -1,7 +1,7 @@
 {
-  "gitSyncId": "673951ac182e8c5d833cfe29_accc9e09-0dba-4149-aafa-abfc328e7568",
+  "gitSyncId": "673951ac182e8c5d833cfe29_b9e6d2b7-f716-4e3b-b1ea-fe09f4e90842",
   "unpublishedPage": {
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Data Sarpras",
-    "slug": "data-sarpras"
+    "name": "Data Sarana",
+    "slug": "data-sarana"
   }
 }
