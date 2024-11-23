@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "673951ac182e8c5d833cfe29_1d30b2b0-8209-4679-9707-a58b5a360f93",
-  "id": "Daftar Peserta Didik_Api1",
+  "gitSyncId": "673951ac182e8c5d833cfe29_2eddc6c3-375a-4a41-896e-302c1382db33",
+  "id": "Dashboard_APIjk",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -21,7 +21,7 @@
         },
         "projection": {
           "data": [
-            "Sekolah Asal"
+            "JK"
           ]
         },
         "queryFormat": {
@@ -54,9 +54,7 @@
           "data": {
             "children": [
               {
-                "condition": "CONTAINS",
-                "key": "",
-                "value": ""
+                "condition": "LT"
               }
             ],
             "condition": "AND"
@@ -74,9 +72,9 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "Api1",
-    "pageId": "Daftar Peserta Didik",
+    "executeOnLoad": true,
+    "name": "APIjk",
+    "pageId": "Dashboard",
     "userSetOnLoad": false
   }
 }

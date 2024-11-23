@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "673951ac182e8c5d833cfe29_1d30b2b0-8209-4679-9707-a58b5a360f93",
-  "id": "Daftar Peserta Didik_Api1",
+  "gitSyncId": "673951ac182e8c5d833cfe29_86a41b72-ab66-4da1-8213-900af2a9a09d",
+  "id": "Daftar Peserta Didik_Update_Daftar_Peserta_Didik1",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "data": "FETCH_MANY"
+          "data": "UPDATE_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -20,15 +20,16 @@
           }
         },
         "projection": {
-          "data": [
-            "Sekolah Asal"
-          ]
+          "data": []
         },
         "queryFormat": {
           "data": "ROWS"
         },
         "range": {
           "data": ""
+        },
+        "rowObjects": {
+          "data": "{{Table1.updatedRow}}"
         },
         "sheetName": {
           "data": "Daftar Peserta Didik"
@@ -39,26 +40,11 @@
         "smartSubstitution": {
           "data": true
         },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
-        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "children": [
-              {
-                "condition": "CONTAINS",
-                "key": "",
-                "value": ""
-              }
-            ],
             "condition": "AND"
           }
         }
@@ -73,9 +59,13 @@
       "name": "dbpesertadidik",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "executeOnLoad": false,
-    "name": "Api1",
+    "name": "Update_Daftar_Peserta_Didik1",
     "pageId": "Daftar Peserta Didik",
     "userSetOnLoad": false
   }

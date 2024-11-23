@@ -5,7 +5,7 @@
   "borderColor": "#2E3D4955",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 62,
+  "bottomRow": 56,
   "bottomRowBeforeCollapse": 86,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
@@ -125,6 +125,51 @@
       "key": "borderRadius"
     },
     {
+      "key": "schema.__root_schema__.children.JK.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.JK.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.JK.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penerima_KPS.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penerima_KPS.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penerima_KPS.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Rombel_Saat_Ini.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Rombel_Saat_Ini.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Rombel_Saat_Ini.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penerima_KIP.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penerima_KIP.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Penerima_KIP.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kebutuhan_Khusus.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kebutuhan_Khusus.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Kebutuhan_Khusus.accentColor"
+    },
+    {
       "key": "schema.__root_schema__.children.Nama.defaultValue"
     },
     {
@@ -141,15 +186,6 @@
     },
     {
       "key": "schema.__root_schema__.children.NIPD.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.JK.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.JK.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.JK.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.NISN.defaultValue"
@@ -314,15 +350,6 @@
       "key": "schema.__root_schema__.children.SKHUN.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.Penerima_KPS.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.Penerima_KPS.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.Penerima_KPS.accentColor"
-    },
-    {
       "key": "schema.__root_schema__.children.No__KPS.defaultValue"
     },
     {
@@ -386,24 +413,6 @@
       "key": "schema.__root_schema__.children.Pekerjaan_1_2.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.Rombel_Saat_Ini.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.Rombel_Saat_Ini.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.Rombel_Saat_Ini.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.Penerima_KIP.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.Penerima_KIP.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.Penerima_KIP.accentColor"
-    },
-    {
       "key": "schema.__root_schema__.children.No_Registrasi_Akta_Lahir.defaultValue"
     },
     {
@@ -429,15 +438,6 @@
     },
     {
       "key": "schema.__root_schema__.children.Alasan_Layak_PIP.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.Kebutuhan_Khusus.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.Kebutuhan_Khusus.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.Kebutuhan_Khusus.accentColor"
     },
     {
       "key": "schema.__root_schema__.children.Sekolah_Asal.defaultValue"
@@ -483,9 +483,6 @@
     },
     {
       "key": "onSubmit"
-    },
-    {
-      "key": "schema.__root_schema__.children.Tanggal_Lahir.defaultValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -547,7 +544,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Agama",
           "position": 7,
-          "sourceData": "Islam"
+          "sourceData": ""
         },
         "Alamat": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -569,7 +566,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Alamat",
           "position": 8,
-          "sourceData": "JL. HARAPAN"
+          "sourceData": ""
         },
         "Alasan_Layak_PIP": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -590,7 +587,7 @@
           "label": "Alasan Layak PIP",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Alasan Layak PIP",
-          "position": 33,
+          "position": 34,
           "sourceData": ""
         },
         "Alat_Transportasi": {
@@ -613,7 +610,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Alat Transportasi",
           "position": 16,
-          "sourceData": "Jalan kaki"
+          "sourceData": ""
         },
         "Anak_ke_berapa": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -635,7 +632,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Anak ke-berapa",
           "position": 36,
-          "sourceData": 1
+          "sourceData": 5
         },
         "Data_Ibu": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -657,7 +654,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Data Ibu",
           "position": 25,
-          "sourceData": "SAIDAH"
+          "sourceData": ""
         },
         "Data_Wali": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -678,7 +675,7 @@
           "label": "Data Wali",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Data Wali",
-          "position": 27,
+          "position": 29,
           "sourceData": ""
         },
         "Dusun": {
@@ -701,7 +698,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Dusun",
           "position": 11,
-          "sourceData": "HABIRAU TENGAH"
+          "sourceData": ""
         },
         "E_Mail": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -711,7 +708,7 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"E-Mail\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Email Input",
+          "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "E_Mail",
           "isCustomField": false,
@@ -722,8 +719,8 @@
           "label": "E Mail",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "E-Mail",
-          "position": 19,
-          "sourceData": "abdul.karim3611@slb.belajar.id"
+          "position": 20,
+          "sourceData": ""
         },
         "HP": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -744,8 +741,8 @@
           "label": "HP",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "HP",
-          "position": 18,
-          "sourceData": 81349618283
+          "position": 19,
+          "sourceData": 87863272629
         },
         "JK": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -766,7 +763,7 @@
           "label": "JK",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "JK",
-          "position": 2,
+          "position": 1,
           "sourceData": "L"
         },
         "Jenis_Tinggal": {
@@ -789,7 +786,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Jenis Tinggal",
           "position": 15,
-          "sourceData": "Bersama orang tua"
+          "sourceData": ""
         },
         "Kebutuhan_Khusus": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -810,7 +807,7 @@
           "label": "Kebutuhan Khusus",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Kebutuhan Khusus",
-          "position": 34,
+          "position": 33,
           "sourceData": "H - Hiperaktif"
         },
         "Kecamatan": {
@@ -833,7 +830,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Kecamatan",
           "position": 13,
-          "sourceData": "Kec. Daha Selatan"
+          "sourceData": ""
         },
         "Kelurahan": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -855,7 +852,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Kelurahan",
           "position": 12,
-          "sourceData": "Desa/Kel. Habirau Tengah"
+          "sourceData": ""
         },
         "Kode_Pos": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -899,7 +896,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Layak PIP (usulan dari sekolah)",
           "position": 32,
-          "sourceData": "Tidak"
+          "sourceData": ""
         },
         "NIK": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -921,7 +918,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "NIK",
           "position": 6,
-          "sourceData": 6303052808080001
+          "sourceData": 6306071612080004
         },
         "NIPD": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -942,8 +939,8 @@
           "label": "NIPD",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "NIPD",
-          "position": 1,
-          "sourceData": 22
+          "position": 2,
+          "sourceData": 15
         },
         "NISN": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -965,7 +962,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "NISN",
           "position": 3,
-          "sourceData": 87756005
+          "sourceData": 85358368
         },
         "Nama": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -987,7 +984,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Nama",
           "position": 0,
-          "sourceData": "ABDUL KARIM"
+          "sourceData": ""
         },
         "Nama_Ayah": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1009,7 +1006,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Nama Ayah",
           "position": 23,
-          "sourceData": "ABD. QADIR JAILANI"
+          "sourceData": ""
         },
         "No_KK": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1031,7 +1028,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "No KK",
           "position": 37,
-          "sourceData": 6306071010120012
+          "sourceData": 6306070109070146
         },
         "No_Registrasi_Akta_Lahir": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1053,7 +1050,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "No Registrasi Akta Lahir",
           "position": 31,
-          "sourceData": "1480/DISPEN-PSLB/2010"
+          "sourceData": ""
         },
         "No__KPS": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1097,7 +1094,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Pekerjaan",
           "position": 24,
-          "sourceData": "Wiraswasta"
+          "sourceData": ""
         },
         "Pekerjaan_1": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1118,8 +1115,8 @@
           "label": "Pekerjaan 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Pekerjaan_1",
-          "position": 26,
-          "sourceData": "Wiraswasta"
+          "position": 27,
+          "sourceData": ""
         },
         "Pekerjaan_1_2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1140,7 +1137,7 @@
           "label": "Pekerjaan 1 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Pekerjaan_1_2",
-          "position": 28,
+          "position": 30,
           "sourceData": ""
         },
         "Penerima_KIP": {
@@ -1162,7 +1159,7 @@
           "label": "Penerima KIP",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Penerima KIP",
-          "position": 30,
+          "position": 28,
           "sourceData": "Tidak"
         },
         "Penerima_KPS": {
@@ -1184,7 +1181,7 @@
           "label": "Penerima KPS",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Penerima KPS",
-          "position": 21,
+          "position": 17,
           "sourceData": "Tidak"
         },
         "RT": {
@@ -1207,7 +1204,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "RT",
           "position": 9,
-          "sourceData": 3
+          "sourceData": 1
         },
         "RW": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1250,7 +1247,7 @@
           "label": "Rombel Saat Ini",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Rombel Saat Ini",
-          "position": 29,
+          "position": 26,
           "sourceData": "Kls VIII B,C1,H (SMPLB)"
         },
         "SKHUN": {
@@ -1272,7 +1269,7 @@
           "label": "SKHUN",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "SKHUN",
-          "position": 20,
+          "position": 21,
           "sourceData": ""
         },
         "Sekolah_Asal": {
@@ -1303,26 +1300,21 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "closeOnSelection": false,
-          "convertToISO": false,
           "dataType": "string",
-          "dateFormat": "DD/MM/YYYY",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData[\"Tanggal Lahir\"], \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Datepicker",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"Tanggal Lahir\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
           "identifier": "Tanggal_Lahir",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
+          "isSpellCheck": false,
           "isVisible": true,
           "label": "Tanggal Lahir",
           "labelTextSize": "0.875rem",
-          "maxDate": "2121-12-31T18:29:00.000Z",
-          "minDate": "1920-12-31T18:30:00.000Z",
           "originalIdentifier": "Tanggal Lahir",
           "position": 5,
-          "shortcuts": false,
-          "sourceData": "28/08/2008",
-          "timePrecision": "minute"
+          "sourceData": ""
         },
         "Telepon": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1343,8 +1335,8 @@
           "label": "Telepon",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Telepon",
-          "position": 17,
-          "sourceData": 81349618283
+          "position": 18,
+          "sourceData": 87863272629
         },
         "Tempat_Lahir": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -1366,7 +1358,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Tempat Lahir",
           "position": 4,
-          "sourceData": "HULU SUNGAI TENGAH"
+          "sourceData": ""
         }
       },
       "dataType": "object",

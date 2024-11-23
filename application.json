@@ -44,6 +44,10 @@
     {
       "id": "Data Tendik",
       "isDefault": false
+    },
+    {
+      "id": "Data Sarpras",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
