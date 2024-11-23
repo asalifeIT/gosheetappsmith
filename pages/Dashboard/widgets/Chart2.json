@@ -2,8 +2,8 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowScroll": false,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "borderRadius": "1.5rem",
+  "bottomRow": 29,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "t9cns7rmu2": {
@@ -66,9 +66,6 @@
       "key": "chartData.t9cns7rmu2.data"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -88,26 +85,26 @@
   "isVisible": true,
   "key": "j30fl0m9kt",
   "labelOrientation": "auto",
-  "leftColumn": 20,
+  "leftColumn": 19,
   "minWidth": 450,
   "mobileBottomRow": 111,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 24,
   "mobileTopRow": 79,
   "needsErrorInfo": true,
-  "originalBottomRow": 94,
-  "originalTopRow": 71,
+  "originalBottomRow": 29,
+  "originalTopRow": 6,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 36,
+  "rightColumn": 34,
   "showDataPointLabel": true,
-  "topRow": 12,
+  "topRow": 6,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "rgnj5yfduj",
   "widgetName": "Chart2",
-  "xAxisName": "Product Line",
-  "yAxisName": "Revenue($)"
+  "xAxisName": "",
+  "yAxisName": ""
 }

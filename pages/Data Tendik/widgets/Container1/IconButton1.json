@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "redo",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "y55a7x7obb",
+  "leftColumn": 50,
+  "minWidth": 50,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 50,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 10.8984375,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 54,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "mg5txcmc1q",
+  "widgetName": "IconButton1"
+}

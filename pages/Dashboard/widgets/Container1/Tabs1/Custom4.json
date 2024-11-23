@@ -39,7 +39,7 @@
   "mobileRightColumn": 10,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "onResetClick": "{{showAlert('Koneksi Data Sukses!', '').then(() => {\n  navigateTo('Data Sarpras', {}, 'SAME_WINDOW');\n});}}",
   "parentColumnSpace": 12.41748046875,
   "parentId": "p1s3ynbdyf",
   "parentRowSpace": 10,

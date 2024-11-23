@@ -2,8 +2,8 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowScroll": false,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "borderRadius": "1.5rem",
+  "bottomRow": 29,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "6tw4wgzdi3": {
@@ -66,9 +66,6 @@
       "key": "chartData.6tw4wgzdi3.data"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -88,26 +85,27 @@
   "isVisible": true,
   "key": "4mwrhhl66m",
   "labelOrientation": "auto",
-  "leftColumn": 36,
+  "leftColumn": 35,
   "minWidth": 450,
   "mobileBottomRow": 97,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 24,
   "mobileTopRow": 65,
   "needsErrorInfo": true,
-  "originalBottomRow": 94,
-  "originalTopRow": 71,
+  "originalBottomRow": 29,
+  "originalTopRow": 6,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 52,
+  "rightColumn": 50,
+  "setAdaptiveYMin": false,
   "showDataPointLabel": true,
-  "topRow": 12,
+  "topRow": 6,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "vovjmywock",
   "widgetName": "Chart3",
-  "xAxisName": "Product Line",
-  "yAxisName": "Revenue($)"
+  "xAxisName": "",
+  "yAxisName": ""
 }
