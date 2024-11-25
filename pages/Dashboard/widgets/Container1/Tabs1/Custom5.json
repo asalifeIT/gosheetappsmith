@@ -39,7 +39,7 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onResetClick": "{{showAlert('Koneksi Data Sukses!', '').then(() => {\n  navigateTo('Daftar Peserta Didik', {}, 'SAME_WINDOW');\n  navigateTo('Data Sarana', {}, 'SAME_WINDOW');\n});}}",
+  "onResetClick": "{{showAlert('Koneksi Data Sukses!', '').then(() => {\n  navigateTo('Daftar Peserta Didik', {}, 'SAME_WINDOW');\n  navigateTo('Data Sarana', {}, 'SAME_WINDOW');\n  navigateTo('Daftar Peserta Didik', {}, 'SAME_WINDOW');\n});}}",
   "parentColumnSpace": 12.41748046875,
   "parentId": "u3ar6d4ahn",
   "parentRowSpace": 10,
